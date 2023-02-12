@@ -1,0 +1,179 @@
+.Main {
+    background-color: white;
+    margin-left: 14px;
+    min-height: 86vh;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.abc {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px !important;
+    width: 100%;
+    align-items: flex-start;
+    background-color: white;
+    height: 67vh;
+}
+
+.imageContainer {
+    display: flex;
+    /* width: 20%; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.joinss {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.haha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.haha label:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.imageContainer img {
+    height: 130px;
+    width: 130px;
+}
+
+.formmm {
+    width: 80%;
+}
+
+.Main h1 {
+    font-size: 1.3rem;
+    line-height: 1.625;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.0075em;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+    opacity: 1;
+    width: 200px;
+    /* padding-left: 13px; */
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(52, 71, 103);
+    font-weight: 700;
+}
+
+.input {
+    width: 25%;
+    min-width: 200px !important;
+}
+
+.inputDescription {
+    width: 55%;
+    min-width: 230px !important;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    /* height: 10%; */
+    gap: 10px;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.country {
+    all: unset;
+    padding-right: 15px;
+    border-bottom: 1px solid;
+    background: url('https://www.charbase.com/images/glyph/9662') no-repeat right;
+    background-size: 16px;
+    width: 20%;
+    min-width: 200px !important;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.footer button {
+    /* position: relative; */
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.02857em;
+    min-width: 64px;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+    user-select: none;
+    transition: all 150ms ease-in 0s;
+    min-height: 2.5rem;
+    padding: 0.625rem 1.5rem;
+    background-image: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+    background-position-y: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(52 71 103 / 15%) 0rem 0.1875rem 0.1875rem 0rem, rgb(52 71 103 / 20%) 0rem 0.1875rem 0.0625rem -0.125rem, rgb(52 71 103 / 15%) 0rem 0.0625rem 0.3125rem 0rem;
+    background-size: 150% !important;
+    background-position-x: 25% !important;
+    background: rgb(4, 75, 122);
+    background: linear-gradient(90deg, rgba(4, 75, 122, 1) 2%, rgba(4, 99, 119, 1) 100%);
+}
+
+@media only screen and (max-width: 834px) {
+    .abc {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+    .Main {
+        margin: 20px 15px;
+        min-height: 85vh;
+
+    }
+}
+
+@media only screen and (max-width: 384px) {
+    .Main {
+        margin: 20px 0px;
+        min-height: 85vh;
+
+    }
+}
